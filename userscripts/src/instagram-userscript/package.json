@@ -1,0 +1,21 @@
+{
+  "name": "instgram-userscript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "proprietary",
+  "description": "",
+  "userScript": {
+    "matches": [
+      "*://*.instagram.com/*",
+      "*://instagram.com/*"
+    ],
+    "isProduction": true
+  },
+  "dependencies": {
+    "regex-escape": "^3.4.11"
+  }
+}

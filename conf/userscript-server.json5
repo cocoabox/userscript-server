@@ -1,0 +1,15 @@
+{
+  hostname: '192.168.11.6',
+  port: 8088,
+  userscripts_dir: '../userscripts',
+  watch: {
+    poll: true,
+    interval_sec: 5
+  },
+  pack: {
+    polyfill: false,
+  },
+  minify: true,
+  printReport: true,
+  // ^ true to report everything, or to report individual elemnts : { colors, chunk, modules, assets, timings}
+}
